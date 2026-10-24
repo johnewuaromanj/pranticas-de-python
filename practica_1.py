@@ -1,6 +1,7 @@
 #mi primer programa de python: calculadola de gastos diarios
 
-nombre = input ("¿Como te llamas?") 
+nombre = input ("¿Como te llamas? ") 
+print("---------")
 print (f"hola {nombre} vamos a calcular tus gastos de hoy.")
 
 pasajes = float(input("¿Cuanto gastaste en pasajes hoy?")) 
