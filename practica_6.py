@@ -12,7 +12,7 @@ while opcion != "3":
     print("2. Ver total acumulado")
     print("3. Salir del menú")
     
-    opcion = input("Elige una opción (1,2 o 3): ")
+    opcion = input("Elige una opción (1 ,2 o 3): ")
     
     if opcion == "1":
         gasto = float(input("¿Cuanto deseas agregar?: "))
@@ -26,7 +26,7 @@ while opcion != "3":
         print(f"¡Hasta luego {nombre}! Cerrando el sistema...")
         
     else:
-        print("Opcion no validad, por favor elegir 1, 2 o 3. ")
+        print("Opcion no valida, por favor elegir 1, 2 o 3. ")
         
 print("---------------------")
 print(f"Resumen final del dia de: {nombre}: ${gasto_total}")
