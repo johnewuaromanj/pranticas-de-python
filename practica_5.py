@@ -1,4 +1,5 @@
-#calculadora acumuladora de gastos diarios ilimitados con el bucle (WHILE)
+#calculadora acumuladora de gastos diarios ilimitados con el bucle (WHILE) mejorada con (lower) para
+#que entienda mayuscula y haciendo pregunta mas personalizada
 nombre = input("¿Cual es tu nombre? ")
 print(f"Hola {nombre}, vamos a sumar todos tus gastos de hoy")
 
