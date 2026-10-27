@@ -20,7 +20,7 @@ while opcion != "4":
         presupuesto_diario = float(input("\n¿Cual es tu presupuesto del dia?: "))
         
     elif opcion == "2":
-        gasto_actual = float(input("Ingresa tu gasto: "))
+        gasto_actual = float(input("\nIngresa tu gasto: "))
         presupuesto_diario = presupuesto_diario - gasto_actual
         print(f"\nGasto ingresado con exito")
     
